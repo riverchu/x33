@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<!-- 实验浏览器：chrome -->
+<body>
+	<script>
+		var x="javascript:alert(/xss/)";
+		document.write("<a href='"+x+"' >test</a>");
+	</script>	
+</body>
+</html>
